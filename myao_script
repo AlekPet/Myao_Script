@@ -9,7 +9,6 @@
 // @grant        GM_getValue
 // @grant        GM_log
 // @grant        GM_xmlhttpRequest
-// @require https://www.google.com/jsapi
 // ==/UserScript==
 function poluch_vibranoe()
 {
