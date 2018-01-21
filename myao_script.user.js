@@ -1,9 +1,13 @@
 // ==UserScript==
 // @name         Myao_Script
-// @namespace    http://tampermonkey.net/
+// @namespace    https://github.com/AlekPet/
 // @version      0.1
 // @description  try to take over the world!
 // @author       AlekPet
+// @license     MIT;
+// @updateURL    https://github.com/AlekPet/Myao_Script/raw/master/myao_script.user.js
+// @downloadURL  https://github.com/AlekPet/Myao_Script/raw/master/myao_script.user.js
+// @run-at document-end
 // @match        http*://*/*
 // @grant        GM_setValue
 // @grant        GM_getValue
