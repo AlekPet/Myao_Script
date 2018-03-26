@@ -14,6 +14,7 @@
 // @grant        GM_log
 // @grant        GM_xmlhttpRequest
 // ==/UserScript==
+
 function poluch_vibranoe()
 {
     if(window.getSelection)
@@ -59,6 +60,7 @@ var uprav = {
              '<iframe src="//coub.com/embed/d06ir?muted=true&autostart=true&originalSize=false&startWithHD=false" allowfullscreen="true" frameborder="0" width="540" height="540"></iframe>',
              '<iframe src="//coub.com/embed/1hrmg5q?muted=true&autostart=true&originalSize=false&startWithHD=false" allowfullscreen="true" frameborder="0" width="480" height="360"></iframe>'
             ]; 
+			
     for(var i=0;i<arr.length;i++){
     if(/iframe/ig.test(arr[i])) {
       arr[i]=arr[i].replace(/(muted=)true|false$/ig,"$1"+uprav.muted);
@@ -66,6 +68,7 @@ var uprav = {
       arr[i]=arr[i].replace(/(width=)"\d+" (height=)"\d+"/ig,"$1"+uprav.width + " $2"+uprav.heigth);  
     }
     }
+	
 function getN(znach){
     if(znach !==""){
  GM_xmlhttpRequest({
@@ -81,6 +84,7 @@ function getN(znach){
 });   
     }
 }
+
 function smena(){
   
     var rnd=Math.floor(Math.random()*arr.length);
