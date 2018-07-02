@@ -1,8 +1,8 @@
 // ==UserScript==
 // @name         Myao_Script
 // @namespace    https://github.com/AlekPet/
-// @version      0.1
-// @description  try to take over the world!
+// @version      0.2
+// @description  funny script!
 // @author       AlekPet
 // @license     MIT;
 // @updateURL    https://github.com/AlekPet/Myao_Script/raw/master/myao_script.user.js
